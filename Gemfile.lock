@@ -6,7 +6,7 @@ PATH
       rails (~> 4.0)
 
 GEM
-  remote: https://ruby.taobao.org/
+  remote: https://gems.ruby-china.org/
   specs:
     GB2260 (0.2.0)
     actionmailer (4.2.5)
@@ -176,4 +176,4 @@ DEPENDENCIES
   sqlite3 (~> 1.3)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

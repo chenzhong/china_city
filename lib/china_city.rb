@@ -27,6 +27,12 @@ module ChinaCity
 
       #sort
       result.sort! {|a, b| a[1] <=> b[1]}
+
+      # remove '市辖区' in city area
+      if result.first.first == '市辖区' && result.second.first != '县'
+        result.shift
+      end
+
       result
     end
 
